@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>动物世界</title>
+  <style type="text/css">
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  .a {
+      text-decoration: none;
+      color: white;
+    }
+    .a {
+      text-align: center;
+      margin: 0 auto;
+      background-color: #000;
+      height: 120px;
+      width: 100%;}
+    .banner{
+      height:100px ;
+      background:rgba(208,61,61,1)url("../imges/true.jpg") no-repeat center center;
+      position: relative;
+      margin: 0 auto;
+    }
+    .F1 {
+      background-color: rgb(244,245,247);
+      height: 1020px;
+    }
+    .F2 {
+      margin: auto;
+      text-align: center;
+    }
+    .f1 {
+      float: left;
+      padding: 30px 0px 30px 140px;
+    }
+    .f2{
+      width: 300px;
+      text-align: center;
+      float: left;
+      padding-left: 70px;
+    }
+    ul {
+      list-style: none;
+    }
+    .nav1{
+      display: flex;
+      flex: row;
+      flex-wrap: wrap;
+    }
+    .nav1 li{
+      
+      height: 80px;
+      flex: auto;
+      text-align: center;
+    }
+    a {
+      font-size: 20px;
+      color: #000;
+      text-decoration: none;
+    }
+    .f3 {
+      padding-top: 40px;
+      width: 60px;
+      height: 35px;
+    }
+    .f3:hover {
+      border-bottom: 2px solid rgb(5,158,252);
+    }
+    .f4 {
+      padding-top: 40px;
+      width: 100px;
+      height: 35px;
+      float: left;
+    }
+    .f4:hover {
+      border-bottom: 2px solid rgb(5,158,252);
+    }
+    
+    .f5 {
+      padding-top: 30px;
+      float: left;
+      padding-left: 160px;
+    }
+    .one {
+      padding-left: 20px;
+      width: 400px;
+      height: 40px;
+      border:  1.5px solid rgb(5,158,252);
+      color: #999;
+      background-color: rgb(244,245,247);
+    }
+    .f6 {
+      float: left;
+      padding-top: 30px;
+    }
+    .two {
+      border:  1.5px solid rgb(5,158,252);
+      width: 50px;
+      background-color: rgb(5,158,252);
+    }
+    .f7 {
+      float: left;
+      position: relative;
+      right: 40px;
+      top: 28px;
+      background: rgba(208,61,61,1);
+    }
+    .f8 {
+      float: left;
+      font-size: 15px;
+      color: rgb(101,102,103);
+      padding-top: 40px;
+      padding-left: 10px;
+    }
+    .f9 {
+      background-color: rgb(24,9,108);
+      height: 420px;
+      margin: auto;
+      position: relative;
+      top: 100px;
+    }
+    .f10{
+      position: relative;
+      bottom: 300px;
+      left: 500px;
+    }
+    .f11 {
+      position: relative;
+      bottom: 695px;
+      left: 130px;
+      height: 419px;
+      width: 230px;
+      z-index: 2;
+      opacity:0.4;
+      background-color: #000;
+      color: white;
+    }
+    .f13{
+      background-color: #fff;
+      width: 100%;
+      height:60px;
+      margin: auto;
+      position: relative;
+      bottom: 690px;
+      left: 20px;
+      box-shadow:1px 1px 5px #999;
+    }
+    .five {
+      font-size: 1.1em;
+      color: rgb(5,158,252);
+      padding: 17px 0px 0px 40px;
+      float: left;
+    }
+    .nav2{
+      position: relative;
+      top: 20px;
+      left: 40px;
+      display: flex;
+      flex: row;
+      flex-wrap: wrap;
+      float: left;
+    }
+    .six {
+      height: 17px;
+      width: 100px;
+      font-size: 1.5em;
+      padding: 0px 20px 0px 20px;
+      border-left: 5px solid #999;
+    }
+    .t5 {
+      position: relative;
+      bottom: 10px;
+    }
+    .seven {
+      float: right;
+      color: rgb(5,158,252);
+      padding: 20px 60px 0px 0px;
+    }
+    
+    .g1{
+      float: left;
+      display: inline;
+      height: 600px;
+      width: 100%;
+      background: #ddd;
+      margin: 0 auto;
+      bottom: 500px;
+
+      
+    }
+    .p1{
+      margin: 0 auto;
+      height: 600px;
+      width: 1233px;
+      padding: 20px;
+      background: #ddd;
+    }
+   .g2{
+     float: left;
+     display: inline;
+      height: 600px;
+      width: 100%;
+      background: #ddd;
+      margin: 0 auto;
+      bottom: 600px;
+      
+    }
+    .g3{
+       float: left;
+      height: 800px;
+      width: 100%;
+      background: #ddd;
+      margin: 0 auto;
+      
+    }
+    .g4{
+      height: 900px;
+      width: 100%;
+      background: #ddd;
+      margin: 0 auto;
+      
+    }
+    .g5{
+      height: 1000px;
+      width: 100%;
+      background: #ddd;
+      margin: 0 auto;
+      
+    }
+    .g6{
+      height: 1100px;
+      width: 100%;
+      background: #ddd;
+      margin: 0 auto;
+      
+    }
+   
+    .p3{
+      font-size: 0.9em;
+      text-align: left;
+      padding: 20px 20px 20px 20px;
+    }
+    .p4 {
+      color: #999;
+      font-size: 0.8em;
+      text-align: left;
+      padding: 0px 20px 20px 20px;
+    }
+    .t6 {
+      color: orange;
+    }
+    .f15 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 650px;
+      right: 0px;
+    }
+    .f16 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 250px;
+      right: 720px;
+      top: -510px;
+    }
+    .f16:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+   .f17 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 650px;
+      right: 0px;
+    }
+    .f18 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 250px;
+      right: 720px;
+      top: -510px;
+    }
+    .f18:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f19 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 650px;
+      right: 0px;
+    }
+    .f20 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 250px;
+      right: 490px;
+      top: -610px;
+    }
+    .f20:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f21 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 750px;
+      right: 0px;
+    }
+    .f22 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 250px;
+      right: 250px;
+      top: -730px;
+    }
+    .f22:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f23 {
+      margin-left: 360px;
+    float: right;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1050px;
+      right: 0px;
+    }
+    .f24 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 250px;
+      left: 930px;
+      top: -860px;
+    }
+    .f24:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f25 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 950px;
+      left: 320px;
+    }
+    .f26 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 630px;
+      top: -950px;
+    }
+    .f26:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f27 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1120px;
+      left: 550px;
+    }
+    .f28 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 630px;
+      top: -950px;
+    }
+    .f28:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f29 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1120px;
+      right: -550px;
+    }
+    .f30 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 630px;
+      top: -950px;
+    }
+    .f30:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f31 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1120px;
+      right: -550px;
+    }
+    .f32 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 630px;
+      top: -950px;
+    }
+    .f32:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f33 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1120px;
+      right: -550px;
+    }
+    .f34 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: -300px;
+      top: -1080px;
+    }
+    .f34:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+     .f36 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1320px;
+      right: -320px;
+    }
+    .f37 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: -86px;
+      top: -370px;
+    }
+    .f37:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f38 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1320px;
+      right: -310px;
+    }
+    .f39 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: -80px;
+      top: -404px;
+    }
+    .f39:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f40 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1320px;
+      right: -310px;
+    }
+    .f41 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: -75px;
+      top: -405px;
+    }
+    .f41:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f42 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1320px;
+      right: -300px;
+    }
+    .f43 {
+      margin: auto;
+      display:inline-block;
+      background-color: #fff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: -70px;
+      top: -372px;
+    }
+    .f43:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f44 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1320px;
+      right: -300px;
+    }
+    .f45 {
+      margin: auto;
+      display:inline-block;
+      background-color: #ffff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: -65px;
+      top: -405px;
+    }
+    .f45:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .f46 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 910px;
+      right: 850px;
+    }
+    .f47 {
+      margin: auto;
+      display:inline-block;
+      background-color: #ffff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 1085px;
+      top: -740px;
+    }
+    .f47:hover {
+      box-shadow:1px 1px 5px #999;
+    } 
+     .f48 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1650px;
+      right: -545px;
+    }
+    .f49 {
+      margin: auto;
+      display:inline-block;
+      background-color: #ffff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 405px;
+      top: -1522px;
+    }
+    .f49:hover {
+      box-shadow:1px 1px 5px #999;
+    } 
+    .f50 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1650px;
+      right: -545px;
+    }
+    .f51 {
+      margin: auto;
+      display:inline-block;
+      background-color: #ffff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 410px;
+      top: -1480px;
+    }
+    .f51:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+     .f52 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1650px;
+      right: -545px;
+    }
+    .f53 {
+      margin: auto;
+      display:inline-block;
+      background-color: #ffff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 415px;
+      top: -1522px;
+    }
+    .f53:hover {
+      box-shadow:1px 1px 5px #999;
+    } 
+    .f54 {
+      margin-left: 360px;
+    float: left;
+    display: inline;
+    z-index:1;
+     margin: auto;
+      background-color: #fff;
+      width: 233px;
+      height: 160px;
+      position: relative;
+      bottom: 1650px;
+      right: -545px;
+    }
+    .f55 {
+      margin: auto;
+      display:inline-block;
+      background-color: #ffff;
+      width: 233px;
+      height: 120px;
+      position: relative;
+      bottom: 950px;
+      right: 420px;
+      top: -1502px;
+    }
+    .f55:hover {
+      box-shadow:1px 1px 5px #999;
+    }
+    .nav4{
+      position: relative;
+      bottom: 130px;
+      left: 600px;
+      font-size: 0.8em;
+      text-align: left;
+      line-height: 20px;
+    }
+    .t10{
+      font-size: 1.2em;
+      padding-bottom: 10px;
+      color: rgb(74,75,76);
+    }
+    .f56{
+      position: relative;
+      float: left;
+      display: block;
+      bottom: 25px;
+      left: 50px;
+    }
+    .f57{
+      position: relative;
+      bottom: 25px;
+      left: 550px;
+    }
+  </style>
+</head>
+<body>
+  <div class="n1">
+    <div class="n2">
+      <div class="f1">
+        <img  width="170px" src="C:\Users\林海\Pictures\web作业\20121029090213183.jpg">
+      </div>
+      <div class="f2">
+        <ul class="nav1">
+          <li><div class="f3"><a href="#">首页</a></div></li>
+          <li><div class="f3"><a href="#">动物</a></div></li>
+          <li><div class="f4"><a href="#">植物</a></div></li>
+          <li><div class="f3"><a href="#">非生物</a></div></li>
+        </ul>
+      </div>
+      <div class="f5">
+        <input class="one" type="text" name="Search" value="输入关键词">
+      </div>
+      <div class="f6">
+        <input class="two" type="submit" name="search" value="">
+      </div>
+      <div class="f7">
+        <img src="C:\Users\林海\Pictures\web作业\QQ图片.png">
+      </div>
+      <div class="f8">
+        <p>信息查询</p>
+      </div>
+      <div class="f9"></div>
+      <div class="f10">
+        <img calss="banner" src="C:\Users\林海\Pictures\web作业\true.jpg">
+      </div>
+      <div class="f11">
+      <div class="f12">
+        <ul><b>
+          <li><h2><div class="four1">鱼类<span class="t">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></span></div></h2></li>
+          <li><h2><div class="four2">有足类<span class="t">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></span></div></h2></li>
+          <li><h2><div class="four3">无足类<span class="t">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></span></div></h2></li>
+          <li><h2><div class="four3">脊椎动物<span class="t">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></span></div></h2></li>
+          <li><h2><div class="four3">哺乳类<span class="t">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></span></div></h2></li>
+          <li><h2><div class="four3">节肢类<span class="t">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></span></div></h2></li>
+          <li><h2><div class="four3">无脊椎动物<span class="t">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></span></div></h2></li></b>
+        </ul>
+      </div></div>
+      <div class="f13" from clear>
+        <p class="five"><b>动物</b></p>
+        <ul class="nav2">
+          <li><div class="six"><span class="t5">门</span></div></li>
+          <li><div class="six"><span class="t5">纲</span></div></li>
+          <li><div class="six"><span class="t5">目</span></div></li>
+          <li><div class="six"><span class="t5">科</span></div></li>
+          <li><div class="six"><span class="t5">属</span></div></li>
+          <li><div class="six"><span class="t5">种</span></div></li>
+        </ul>
+        <p class="seven"><b>植物</b></p>
+      </div></div>
+     <div class="g1" >
+      <div class="p1">
+      <div class="f15">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\4629f2dd578e48d385e26f4fd5bf6de5.jpeg"></a>
+      </div>
+      <div class="f16">
+        <p class="p3">镰翅鸡</p>
+        <p class="p4"><span class="t6">2000年灭绝</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;仅分布于黑龙江省及黑龙江下游</p>
+      </div>
+      <div class="f17">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\133717859_2_20180522063152597.jpg"></a>
+      </div>
+      <div class="f18">
+        <p class="p3">新疆虎</p>
+        <p class="p4"><span class="t6">1916年灭绝</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;我国虎种的五大亚种之一生活在博斯腾湖附近</p>
+      </div>
+      <div class="f19">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\t01a9bd4589564e6b84.jpg"></a>
+      </div>
+      <div class="f20">
+        <p class="p3">麋鹿</p>
+        <p class="p4"><span class="t6">1985年中国本土灭绝</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;引进外来麋鹿生存在湿地</p>
+      </div>
+      <div class="f21">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\t01bae6b0981e9e7bb1.webp.jpg"></a>
+      </div>
+      <div class="f22">
+        <p class="p3">华南虎</p>
+        <p class="p4"><span class="t6">1981年灭绝</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;现在的华南的大都是人工繁殖，野生的已灭绝</p>
+      </div>
+      <div class="f23">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\t01f110624ab7d1b847.jpg"></a>
+      </div>
+      <div class="f24">
+        <p class="p3">斑驴</p>
+        <p class="p4"><span class="t6">1883年灭绝</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;分布在非洲广阔的草原地带</p>
+      </div>
+    </div>
+    </div>
+      <div class="f25">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\t018bec4cc58f441d2a.webp.jpg"></a>
+      </div>
+      <div class="g2">
+      <div class="f26">
+        <p class="p3">云豹</p>
+        <p class="p4"><span class="t6">国家一级保护动物</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;台湾特有亚种猫科动物</p>
+      </div>
+      <div class="f27">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\t018f9bfabf9cfaf63e.jpg"></a>
+      </div>
+      <div class="f28">
+        <p class="p3">熊猫</p>
+        <p class="p4"><span class="t6">国家一级保护动物</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;四川、陕西、甘肃三省</p>
+      </div>
+      <div class="f29">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\t019a19206c7b41894e.jpg"></a>
+      </div>
+      <div class="f30">
+        <p class="p3">娃娃鱼</p>
+        <p class="p4"><span class="t6">国家二级保护动物</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;黄河、长江、珠江中下游及其支流</p>
+      </div>
+      <div class="f31">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\t1.jpg"></a>
+      </div>
+      <div class="f32">
+        <p class="p3">江豚</p>
+        <p class="p4"><span class="t6">国家一级保护动物</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;长江流域</p>
+      </div>
+      <div class="f33">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\25171934854.jpg"></a>
+      </div>
+      <div class="f34">
+        <p class="p3">锦鸡</p>
+        <p class="p4"><span class="t6">国家二级保护动物</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;主要是集中在甘肃科陕西的岭南地区</p>
+      </div></div>
+      <div class="g5">
+      <div class="f36">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\44.jpg"></a>
+      </div>
+      <div class="f37">
+        <p class="p3">剑齿虎</p>
+        <p class="p4"><span class="t6">老虎的祖先</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;生活在距今300万～1.5万 年前的更新世——全新世时期，与进化中的人类祖先共同渡过了近300 万年 的时间。 </p>
+      </div>
+      <div class="f38">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\45.JPEG"></a>
+      </div>
+      <div class="f39">
+        <p class="p3">原犀</p>
+        <p class="p4"><span class="t6">犀牛的祖先</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;持续了约3300多万年的历史。</p>
+      </div>
+      <div class="f40">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\46.jpg"></a>
+      </div>
+      <div class="f41">
+        <p class="p3">古蜥蜴</p>
+        <p class="p4"><span class="t6">蜥蜴的祖先</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;生存于中新世中期至更新世早期。</p>
+      </div>
+      <div class="f42">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\47.jpg"></a>
+      </div>
+      <div class="f43">
+        <p class="p3">古猿</p>
+        <p class="p4"><span class="t6">猩猩的祖先</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;它们在100万年前开始出现，大致在30万年前逐渐消亡。它们的分布范围主要在现在的东亚地区。</p>
+      </div>
+      <div class="f44">
+        <a href="#"><img src="C:\Users\林海\Pictures\web作业\48.jpg"></a>
+      </div>
+      <div class="f45">
+        <p class="p3">恐猪（完齿兽）</p>
+        <p class="p4"><span class="t6">猪的祖先</span>&nbsp;&nbsp;<b>·</b>&nbsp;&nbsp;生活在古近纪,大约距今6500万年</p>
+      </div></div>
+      <div class="g6">
+      <div class="f46">
+        <img src="C:\Users\林海\Pictures\web作业\t46.jpg">
+      </div>
+      <div class="f47">
+        <p class="p7"><span class="t10"><b>背脊龙</b></span></p>
+        <p class="p10">生活在6500万年前的白垩纪</p></div>
+      </div>
+      <div class="f48">
+        <img src="C:\Users\林海\Pictures\web作业\300.jpg">
+      </div>
+      <div class="f49">
+        <p class="p8"><span class="t8"><b>梁龙</b></span></p>
+        <p class="p9">生活于侏罗纪末的北美洲西部，时代可追溯至1亿5000万至1亿4700万年前。</p>
+      </div>
+      <div class="f50">
+        <img src="C:\Users\林海\Pictures\web作业\t3.jpg">
+      </div>
+      <div class="f51">
+        <p class="p8"><span class="t8"><b>霸王龙</b></span></p>
+        <p class="p9">生存于白垩纪末期的马斯特里赫特阶(MAA)距今约6850万年到6500万年的白垩纪最末期，是白垩纪-第三纪灭绝事件前最后的非鸟类的恐龙种类之一。</p>
+      </div>
+      <div class="f52">
+        <img src="C:\Users\林海\Pictures\web作业\t4.jpg">
+      </div>
+      <div class="f53">
+        <p class="p8"><span class="t8"><b>三角龙</b></span></p>
+        <p class="p9">化石发现于北美洲的晚白垩纪晚马斯特里赫特阶地层，约6800万年前到6500万年前。</p>
+      </div>
+      <div class="f54">
+        <img src="C:\Users\林海\Pictures\web作业\t5.jpg">
+      </div>
+      <div class="f55">
+        <p class="p9"><span class="t9"><b>翼龙</b></span></p>
+        <p class="p10">生存于晚三叠纪到白垩纪末，约2亿1000万年前到6500万年前。翼龙并不是恐龙。 希腊文意思为"有翼蜥蜴"</p></div>
+        
+      </div>
+      <div class="f56">
+        <ul class="nav4">
+          <li class="t10"><h2><b>关于动物网</b></h2></li>
+          <li><h2>关于</h2></li>
+          <li><h2>加入社团</h2></li>
+          <li><h2>工作机会</h2></li>
+          <li><h2>动物信息咨询</h2></li>
+          <li><h2>帮助</li></h2>
+        </ul>
+      </div>
+      <div class="f57" clear>
+        <ul class="nav4">
+          <li class="t10"><h2><b>保护野生动物</b></h2></li>
+          <li><h2>登录</h2></li>
+          <li><h2>注册</h2></li>
+          <li><h2>找回密码</h2></li>
+         <li><h2>修改密码</li></h2>
+        </ul>
+      </div>
+  <div class="a">
+   <p>冀·海宇特有2019012280号、2019-2023 版权所有</p>
+  </div>
+</body>
+</html>
